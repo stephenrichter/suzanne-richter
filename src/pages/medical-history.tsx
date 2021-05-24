@@ -2,19 +2,19 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
-import Experience from 'components/Experience';
+import MedicalHistory from 'components/MedicalHistory';
 import Education from 'components/Education';
 import Skills from 'components/Skills';
 
-const ResumePage: React.FC = () => (
+const MedicalHistoryPage: React.FC = () => (
   <Layout>
-    <SEO title="Resume" />
-    <Experience />
+    <SEO title="Medical History" />
+    <MedicalHistory />
     <hr />
-    <Education />
+    {/* <Education />
     <hr />
-    <Skills />
+    <Skills /> */}
   </Layout>
 );
 
-export default ResumePage;
+export default MedicalHistoryPage;

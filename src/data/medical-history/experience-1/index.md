@@ -1,5 +1,5 @@
 ---
-category: 'experiences'
+category: 'medical-history'
 company: 'Forge Inc'
 position: 'UI/UX Designer'
 startDate: 'Mar 2010'

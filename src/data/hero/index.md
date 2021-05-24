@@ -1,8 +1,8 @@
 ---
 category: 'hero section'
-title: 'Frontend Developer'
-subtitle: 'I am the Great Gatsby'
-content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
-linkTo: '/resume/'
-linkText: 'View My Profile'
+title: 'My Story'
+subtitle: 'Living with Gastroparesis'
+content: 'I, Suzanne Emilie Richter, born January 24, 1989, am outlining my current medical situation and requesting urgent support from our healthcare system. I do not currently have a family doctor or any consistent medical care despite significant effort and advocacy, partly due to my complex medical needs. My hope is that by writing more about my story, it will spotlight my diagnoses and the need for enhanced medical care and support.'
+linkTo: '/medical-history/'
+linkText: 'View Medical History'
 ---

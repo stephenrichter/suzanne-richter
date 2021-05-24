@@ -1,5 +1,5 @@
 ---
-category: 'experiences'
+category: 'medical-history'
 company: 'Aizoon Reply'
 position: 'UI/UX Designer'
 startDate: 'Jan 2011'

@@ -1,5 +1,5 @@
 ---
-category: 'experiences'
+category: 'medical-history'
 company: 'Netlify'
 position: 'Senior Frontend Developer'
 startDate: 'Jun 2015'

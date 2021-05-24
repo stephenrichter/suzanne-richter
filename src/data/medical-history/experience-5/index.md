@@ -1,5 +1,5 @@
 ---
-category: 'experiences'
+category: 'medical-history'
 company: 'The Great Gasby Inc'
 position: 'CEO & Founder'
 startDate: 'Jan 2018'

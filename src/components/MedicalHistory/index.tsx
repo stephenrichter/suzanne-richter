@@ -8,7 +8,7 @@ import FormatHtml from 'components/utils/FormatHtml';
 
 import { SectionTitle } from 'helpers/definitions';
 
-interface Experience {
+interface History {
   node: {
     id: string;
     html: React.ReactNode;
@@ -21,17 +21,17 @@ interface Experience {
   };
 }
 
-const Experience: React.FC = () => {
+const MedicalHistory: React.FC = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "experiences section" } }) {
+      markdownRemark(frontmatter: { category: { eq: "medical history section" } }) {
         frontmatter {
           title
           subtitle
         }
       }
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "experiences" } } }
+        filter: { frontmatter: { category: { eq: "medical-history" } } }
         sort: { order: DESC, fields: fileAbsolutePath }
       ) {
         edges {
@@ -51,13 +51,13 @@ const Experience: React.FC = () => {
   `);
 
   const sectionTitle: SectionTitle = markdownRemark.frontmatter;
-  const experiences: Experience[] = allMarkdownRemark.edges;
+  const history: History[] = allMarkdownRemark.edges;
 
   return (
     <Container section>
       <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} />
 
-      {experiences.map((item) => {
+      {history.map((item) => {
         const {
           id,
           html,
@@ -79,4 +79,4 @@ const Experience: React.FC = () => {
   );
 };
 
-export default Experience;
+export default MedicalHistory;

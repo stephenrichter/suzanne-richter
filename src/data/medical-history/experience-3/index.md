@@ -1,5 +1,5 @@
 ---
-category: 'experiences'
+category: 'medical-history'
 company: 'Facebook'
 position: 'Frontend Developer'
 startDate: 'May 2013'
