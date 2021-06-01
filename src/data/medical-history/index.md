@@ -1,5 +1,5 @@
 ---
 category: 'medical history section'
-title: 'All Companies'
+title: 'My Story'
 subtitle: 'My Medical History'
 ---

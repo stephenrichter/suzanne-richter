@@ -7,8 +7,10 @@ import { SectionTitle } from 'helpers/definitions';
 
 interface SectionHeroBanner extends SectionTitle {
   content: string;
-  linkTo: string;
-  linkText: string;
+  primaryLink: string;
+  primaryText: string;
+  secLink: string;
+  secText: string;
 }
 
 const HeroBanner: React.FC = () => {
@@ -19,8 +21,10 @@ const HeroBanner: React.FC = () => {
           title
           subtitle
           content
-          linkTo
-          linkText
+          primaryLink
+          primaryText
+          secLink
+          secText
         }
       }
     }
@@ -33,8 +37,10 @@ const HeroBanner: React.FC = () => {
       title={heroBanner.title}
       subtitle={heroBanner.subtitle}
       content={heroBanner.content}
-      linkTo={heroBanner.linkTo}
-      linkText={heroBanner.linkText}
+      primaryLink={heroBanner.primaryLink}
+      primaryText={heroBanner.primaryText}
+      secLink={heroBanner.secLink}
+      secText={heroBanner.secText}
     />
   );
 };

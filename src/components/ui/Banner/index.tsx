@@ -11,17 +11,22 @@ interface Props {
   title: string;
   subtitle?: string;
   content: React.ReactNode;
-  linkTo: string;
-  linkText: string;
+  primaryLink: string;
+  primaryText: string;
+  secLink: string;
+  secText: string;
 }
 
-const Banner: React.FC<Props> = ({ title, subtitle, content, linkTo, linkText }) => (
+const Banner: React.FC<Props> = ({ title, subtitle, content, primaryLink, primaryText, secLink, secText }) => (
   <Styled.Banner>
-    <Container section>
-      <TitleSection title={title} subtitle={subtitle} />
+    <Container section center>
+      {/* <TitleSection title={title} subtitle={subtitle} /> */}
       <Styled.Content>{content}</Styled.Content>
-      <Link to={linkTo}>
-        <Button primary>{linkText}</Button>
+      <Link to={primaryLink}>
+        <Button primary>{primaryText}</Button>
+      </Link>
+      <Link to={secLink}>
+        <Button>{secText}</Button>
       </Link>
     </Container>
   </Styled.Banner>

@@ -32,7 +32,7 @@ const MedicalHistory: React.FC = () => {
       }
       allMarkdownRemark(
         filter: { frontmatter: { category: { eq: "medical-history" } } }
-        sort: { order: DESC, fields: fileAbsolutePath }
+        sort: { order: ASC, fields: fileAbsolutePath }
       ) {
         edges {
           node {

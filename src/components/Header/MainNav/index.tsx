@@ -17,10 +17,6 @@ const mainNavItems: MainNavItem[] = [
     slug: '/medical-history/'
   },
   {
-    title: 'Blog',
-    slug: '/blog/'
-  },
-  {
     title: 'Contact Me',
     slug: '/contact/'
   }

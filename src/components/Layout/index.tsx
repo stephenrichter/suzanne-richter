@@ -39,7 +39,7 @@ const Layout: React.FC<Props> = ({ children }) => {
           >
             {children}
             {/* <Newsletter /> */}
-            <Footer />
+            {/* <Footer /> */}
           </motion.div>
         </Styled.Layout>
       </AnimatePresence>

@@ -1,8 +1,10 @@
 ---
 category: 'hero section'
 title: 'My Story'
-subtitle: 'Living with Gastroparesis'
-content: 'I, Suzanne Emilie Richter, born January 24, 1989, am outlining my current medical situation and requesting urgent support from our healthcare system. I do not currently have a family doctor or any consistent medical care despite significant effort and advocacy, partly due to my complex medical needs. My hope is that by writing more about my story, it will spotlight my diagnoses and the need for enhanced medical care and support.'
-linkTo: '/medical-history/'
-linkText: 'View Medical History'
+subtitle: 'Living with M.E. (Myalgic Encephalomyelitis)'
+content: 'My name is Suzanne Richter. I have been living with a chronic disease for 12 years and am currently without a family doctor. My hope is that by writing more about my story, it will spotlight my disease and my urgent request for enhanced medical care and support.'
+primaryLink: '#my-story'
+primaryText: 'Read My Story'
+secLink: '/medical-history/'
+secText: 'View Medical Timeline'
 ---

@@ -6,5 +6,9 @@ export const Banner = styled.section`
 `;
 
 export const Content = styled.p`
-  ${tw`mb-8`};
+  ${tw`text-2xl mb-8 text-center`};
+`;
+
+export const Button = styled.button`
+  ${tw`mx-4`};
 `;
