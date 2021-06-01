@@ -50,7 +50,7 @@ I am not looking for much, all I want is the chance to have a little bit of purp
 
 Ultimately, as a British Columbian and Canadian, I believe that I should be able to receive sufficient medical care and right now I feel as though I am falling through the cracks.
 
-As such, I’m requesting support for medical care, including a family doctor, and I am open and willing to try any available solutions for my underlying medical issues and for pain management. If you or anyone you know can help in any way, or require additional information regarding my personal or medical history, please don’t hesitate to contact my family trust at suzannerichter@gmail.com.
+As such, I’m requesting support for medical care, including a family doctor, and I am open and willing to try any available solutions for my underlying medical issues and for pain management. If you or anyone you know can help in any way, or require additional information regarding my personal or medical history, please don’t hesitate to contact me at suzrichter@gmail.com.
 
 Thank you for taking the time to read this letter and consider my medical circumstances. I look forward to your response and discussing any options which may be available to me.
 
